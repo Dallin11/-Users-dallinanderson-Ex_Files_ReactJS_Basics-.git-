@@ -50,8 +50,17 @@
 
             }
         })
+
+        var Board = React.createClass({
+            render(){
+                return (<div className = "board">
+                
+                </div>)
+            }
+        })
         
-        ReactDOM.render(<Note>Hello World</Note>, 
+        
+        ReactDOM.render(<Board count={10}/>, 
             document.getElementById('react-container'))
 
         </script>
